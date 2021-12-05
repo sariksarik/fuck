@@ -1,0 +1,187 @@
+@import url(fonts.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family:  Roboto-Regular;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+nav{
+    background: #322E41;
+    padding: 14px 0;
+}
+
+.header-nav__list{
+    display: flex;   
+}
+
+.header-nav__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav__list-link{
+    color: #FFFFFF;
+    padding: 26px 14px;
+    transition: 500ms;
+}
+.header-nav__list-link:hover{
+    color: #D47300;
+    background: white;
+}
+
+.header-content{
+    height: 500px;
+    background: url(img/Nike-Adapt-BB\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.header-descr{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-descr h1{
+  font-size: 50px;
+  font-family: Roboto-Bold;
+  margin-bottom: 15px;
+}
+
+.header-descr P{
+    font-size: 18px;
+}
+
+.header-descr span{
+    font-weight: 700;
+}
+
+.main-card{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+main{
+    background: #EBEBEB;
+}
+
+.main-card IMG{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main-card h2, .card h2{
+    margin-bottom: 10px;
+    font-family: Roboto-Bold;
+    font-size: 22px;
+    color: #2C2A2A;
+}
+
+.main-card p, .card p{
+    color: #9B9B9B;
+    text-align: left;
+}
+.card{
+    width: 255px;
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+}
+.second-cards{
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-37px);
+    flex-wrap: wrap;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+}
+
+footer{
+    background: #322E41;
+    padding: 37px 0 57px 0;    
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+}
+
+input:focus, textarea:focus{
+  outline: none;  
+}
+
+.footer-form input, textarea{
+    padding: 8px;
+    border-radius: 6px;
+    color: #9B9B9B;
+    font-size: 18px;
+}
+
+.footer-form a{
+    color: #FFFFFF;
+    text-align: center;
+    background: #544294;
+    border-radius: 6px;
+    padding: 4px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 260px 0 95px;
+    align-items: center;
+}
+
+.footer-nav__list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    column-gap: 68px;
+    height: 130px;
+}
+
+.footer-nav__list-link{
+    color: #FFFFFF;
+    transition: 300ms;
+}
+
+.footer-nav__list-link:hover{
+    color: #D47300;   
+}
+.header-nav__content i{
+    display: none;
+    color: white;
+    font-size: 40px;
+}
